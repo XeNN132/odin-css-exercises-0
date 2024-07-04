@@ -17,3 +17,13 @@ button {
   padding: 16px 24px;
   text-align: center;
 }
+
+button, button:hover{
+  transition:  300ms;
+  }
+
+button:hover{
+  scale: 1.1;
+  }
+
+
