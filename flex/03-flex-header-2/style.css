@@ -12,11 +12,13 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
 }
 
 .profile-image {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+  /*This makes a circle*/
   border-radius: 50%;
   width: 48px;
   height: 48px;
@@ -34,7 +36,9 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
-  padding: 8px 24px;
+  padding-inline: 24px ;
+  height:32px;
+  margin-inline:12px
 }
 
 a {
@@ -45,4 +49,15 @@ a {
 
 ul {
   list-style-type: none;
+  gap: 10px;
 }
+
+.links{
+	flex-grow: 1;
+}
+
+.header, .links{
+	display: flex;
+	align-items: center;
+}
+
